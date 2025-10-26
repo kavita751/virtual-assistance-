@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex - Virtual Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="assistant-container">
+        <div class="greeting" id="greeting">Hello, I am Alex!</div>
+        <button id="speakBtn" class="speak-btn">🎤 Talk to Alex</button>
+
+        <div class="todo-section">
+            <h2>To-Do List</h2>
+            <ul id="todoList"></ul>
+            <input type="text" id="todoInput" placeholder="Add a task">
+            <button id="addTodoBtn">Add</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
